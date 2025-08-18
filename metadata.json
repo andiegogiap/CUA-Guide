@@ -1,0 +1,6 @@
+{
+  "name": "CUA Engine Interactive Guide",
+  "description": "An immersive and interactive guide to the CUA Orchestration Engine. Explore the AI Family, interact with agents in a control panel, simulate tasks, and learn about the 'ajentic flow' through dynamic, contextual hinting powered by the Gemini API.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
