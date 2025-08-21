@@ -181,7 +181,7 @@ const ActiveAgentControlPanel: React.FC<ActiveAgentControlPanelProps> = ({ agent
       </button>
 
       {/* Agent Summary Card */}
-      <div className="glass-card p-6 mb-6">
+      <div className="glass neon p-6 mb-6">
         <div className="flex flex-col md:flex-row gap-6">
           <div className="flex-shrink-0 text-center">
             <div className="w-24 h-24 rounded-full bg-background-light flex items-center justify-center mx-auto border-2 border-brand-primary shadow-neon-violet">
@@ -203,7 +203,7 @@ const ActiveAgentControlPanel: React.FC<ActiveAgentControlPanelProps> = ({ agent
       </div>
       
       {/* Orchestration Planner */}
-      <div className="glass-card p-4 mb-6">
+      <div className="glass neon p-4 mb-6">
           <h3 className="font-bold text-lg text-text-primary mb-2">Orchestration Planner</h3>
           <form onSubmit={handlePlanOrchestration} className="flex flex-col sm:flex-row gap-2 mb-4">
               <input

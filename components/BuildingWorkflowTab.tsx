@@ -17,7 +17,7 @@ const BuildingWorkflowTab: React.FC = () => {
                     <React.Fragment key={phase.phase}>
                         <div
                             onClick={() => setSelectedPhase(phase)}
-                            className={`transition-all duration-300 glass-card p-4 cursor-pointer text-center flex-1 ${selectedPhase.phase === phase.phase ? 'ring-2 ring-brand-primary scale-105 shadow-neon-violet' : 'hover:border-brand-primary'}`}
+                            className={`transition-all duration-300 glass neon p-4 cursor-pointer text-center flex-1 ${selectedPhase.phase === phase.phase ? 'ring-2 ring-brand-primary scale-105' : ''}`}
                         >
                             <h4 className="font-bold text-text-primary">{phase.phase}</h4>
                         </div>
@@ -29,7 +29,7 @@ const BuildingWorkflowTab: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div className="glass-card p-6">
+                <div className="glass neon p-6">
                     <h3 className="text-2xl font-bold mb-2 text-text-primary">{selectedPhase.title}</h3>
                     <p className="text-text-secondary mb-4">{selectedPhase.description}</p>
                     <ul className="space-y-2">

@@ -14,7 +14,7 @@ const SettingsTab: React.FC = () => {
                 This application is configured to securely access generative AI models.
             </p>
 
-            <div className="glass-card p-6">
+            <div className="glass neon p-6">
                 <div className="flex flex-col sm:flex-row items-start gap-4">
                     <div className="flex-shrink-0 bg-background-light p-3 rounded-full mx-auto sm:mx-0">
                         <ShieldIcon />

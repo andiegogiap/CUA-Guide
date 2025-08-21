@@ -15,7 +15,7 @@ interface ChatColumnProps {
 
 const ChatColumn: React.FC<ChatColumnProps> = ({ title, chatHistory, isLoading, onStartConversation, chatLogRef }) => {
   return (
-    <div className="glass-card p-4 flex flex-col h-[600px] max-h-[70vh]">
+    <div className="glass neon p-4 flex flex-col h-[600px] max-h-[70vh]">
       <h3 className="text-xl font-bold text-center text-text-primary mb-4 drop-shadow-[0_0_4px_rgba(138,43,226,0.6)]">{title}</h3>
       <div ref={chatLogRef} className="flex-grow space-y-4 overflow-y-auto p-2 min-h-0">
         {chatHistory.map(msg => (

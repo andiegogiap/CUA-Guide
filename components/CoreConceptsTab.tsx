@@ -28,7 +28,7 @@ const CoreConceptsTab: React.FC = () => {
         The CUA Orchestration Engine is designed around a principle called "ajentic flow"—a highly interactive and guided experience for building AI applications. Instead of static documentation, the engine uses its AI agents to proactively offer contextual insights and suggestions, ensuring a seamless journey from your initial idea to a fully orchestrated task.
       </p>
       
-      <div className="glass-card p-6">
+      <div className="glass neon p-6">
         <h3 className="text-2xl font-bold mb-4 text-text-primary">The Layered Hinting System</h3>
         <p className="text-text-secondary mb-4">
           After every interaction, the system provides three layers of guidance to ensure you're never left wondering what to do next. This creates a continuous and intuitive conversational flow.

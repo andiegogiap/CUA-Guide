@@ -10,7 +10,7 @@ interface AccordionItemProps {
 
 const AccordionItem: React.FC<AccordionItemProps> = ({ item, isOpen, onClick }) => {
     return (
-        <div className="glass-card">
+        <div className="glass neon">
             <button
                 onClick={onClick}
                 className="p-4 w-full flex justify-between items-center text-left"

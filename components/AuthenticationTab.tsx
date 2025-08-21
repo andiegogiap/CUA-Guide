@@ -34,7 +34,7 @@ const AuthenticationTab: React.FC = () => {
       </p>
 
       <div className="space-y-6">
-        <div className="glass-card p-6 flex flex-col sm:flex-row items-start gap-4">
+        <div className="glass neon p-6 flex flex-col sm:flex-row items-start gap-4">
           <div className="flex-shrink-0 bg-background-light p-3 rounded-full mx-auto sm:mx-0">
             <CloudIcon />
           </div>
@@ -52,7 +52,7 @@ const AuthenticationTab: React.FC = () => {
           </div>
         </div>
 
-        <div className="glass-card p-6 flex flex-col sm:flex-row items-start gap-4">
+        <div className="glass neon p-6 flex flex-col sm:flex-row items-start gap-4">
             <div className="flex-shrink-0 bg-background-light p-3 rounded-full mx-auto sm:mx-0">
                 <KeyIcon />
             </div>
@@ -73,7 +73,7 @@ const AuthenticationTab: React.FC = () => {
             </div>
         </div>
 
-        <div className="glass-card p-6 flex flex-col sm:flex-row items-start gap-4">
+        <div className="glass neon p-6 flex flex-col sm:flex-row items-start gap-4">
              <div className="flex-shrink-0 bg-background-light p-3 rounded-full mx-auto sm:mx-0">
                 <CodeIcon />
             </div>
@@ -129,7 +129,7 @@ app.get('/auth/google/callback', async (req, res) => {
             </div>
         </div>
 
-        <div className="glass-card p-6 flex flex-col sm:flex-row items-start gap-4">
+        <div className="glass neon p-6 flex flex-col sm:flex-row items-start gap-4">
              <div className="flex-shrink-0 bg-background-light p-3 rounded-full mx-auto sm:mx-0">
                 <UserCheckIcon />
             </div>

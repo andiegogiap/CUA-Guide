@@ -34,7 +34,7 @@ const DualLlmStrategyTab: React.FC = () => {
         This guide provides the custom instructions for the "Merge Collective" of AI agents. It defines how Google Gemini and OpenAI models collaborate to create a system that is more robust, creative, and resilient than any single model alone.
       </p>
 
-      <div className="glass-card p-6 mb-6">
+      <div className="glass neon p-6 mb-6">
         <h3 className="text-2xl font-bold mb-4 text-text-primary">The Core Principle: Architect vs. Advisor</h3>
         <p className="text-text-secondary mb-6">
             We assign distinct roles to each LLM based on their inherent strengths. This specialization ensures that you receive both a structured, executable plan and a creative, alternative perspective for every task.
@@ -67,7 +67,7 @@ const DualLlmStrategyTab: React.FC = () => {
         </div>
       </div>
 
-       <div className="glass-card p-6 mb-6">
+       <div className="glass neon p-6 mb-6">
             <div className="flex items-start gap-4 mb-4">
                 <div className="flex-shrink-0 bg-background-light p-3 rounded-full"><FlowChartIcon/></div>
                 <div>
@@ -99,7 +99,7 @@ const DualLlmStrategyTab: React.FC = () => {
             </ol>
       </div>
 
-       <div className="glass-card p-6">
+       <div className="glass neon p-6">
             <div className="flex items-start gap-4 mb-4">
                 <div className="flex-shrink-0 bg-background-light p-3 rounded-full"><BrainCircuitIcon/></div>
                 <div>

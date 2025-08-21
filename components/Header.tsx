@@ -14,7 +14,7 @@ const Header: React.FC = () => {
           decoding="async"
         />
       </a>
-      <h1 className="text-4xl md:text-5xl font-bold text-brand-primary drop-shadow-[0_0_8px_rgba(138,43,226,0.8)]">
+      <h1 className="font-orbitron text-4xl md:text-5xl font-bold text-brand-primary drop-shadow-[0_0_8px_rgba(138,43,226,0.8)]">
         Guide to the CUA Engine
       </h1>
      
